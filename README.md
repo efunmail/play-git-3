@@ -34,8 +34,24 @@ git config user.signingkey ~/.ssh/id_ed25519.pub
 
 ## WORKFLOW
 
+- Add files to 'staging area':
+
 ```sh
 git add .
+```
 
-# // NOTE: `-S` for *signing* a commit
+- Commit, with a message
+
+    - NOTE: `-S` for *signing* a commit
+
+```sh
 git commit -S -am "Message..."
+```
+
+- Push!
+
+```sh
+git push origin main
+```
+
+
