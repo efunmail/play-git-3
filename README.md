@@ -6,9 +6,11 @@
 git init -b main
 ```
 
-## Set repo
+## Set repo  
 
-Set up 'origin' *remote* - (re: `add` and `set-url`)
+- Add 'origin' *remote* - (re: `add` and `set-url`)
+
+    - NOTE: `git@github.com` (for SSH authentication)
 
 ```sh
 git remote add origin https://github.com/$NAME_USER/$NAME_REPO.git
@@ -42,7 +44,7 @@ git add .
 
 - Commit, with a message
 
-    - NOTE: `-S` for *signing* a commit
+    - NOTE: `-S` for (SSH) *signing* a commit
 
 ```sh
 git commit -S -am "Message..."
