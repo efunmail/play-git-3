@@ -1,4 +1,4 @@
-## INIT
+## Init
 
 - Initialise, with (initial) *branch name* being  **'main'**:
 
@@ -34,6 +34,8 @@ git config user.name "$USER_NAME"
 ```sh
 git config gpg.format ssh
 git config user.signingkey ~/.ssh/id_ed25519.pub
+
+# git config -l |less  # // Can check
 ```
 
 ## WORKFLOW
